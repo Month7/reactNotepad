@@ -1,0 +1,22 @@
+.note-editor {
+    flex:2;
+    textarea {
+        box-sizing: border-box;
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+        padding-top: 15px;
+      }
+}
+.form-group {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    margin-bottom: 0;
+    textarea {
+        flex-grow: 2;
+    }
+}
+.title {
+    border:0;
+}

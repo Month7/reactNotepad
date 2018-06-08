@@ -1,0 +1,35 @@
+.notes-list {
+    flex:1;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.list-header {
+    padding: 5px 25px 25px 25px;
+    .search{
+        margin-top: 20px;
+    }
+    h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+}
+.container {
+    height: calc(100% - 204px);
+    max-height: calc(100% - 204px);
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+    .list-group-item{
+        border: 0;
+        border-radius: 0;
+    }
+}
+.list-group-item-heading{
+    font-weight: 300;
+    font-size: 15px;
+}
