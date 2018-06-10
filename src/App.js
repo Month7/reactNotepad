@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Toolbar from './components/Toolbar';
-import NoteList from './components/NoteList';
-import Editor from './components/Editor';
+import Toolbar from './containers/Toolbar';
+import VisbleNoteList from './containers/NoteList';
+import NoteEditor from './containers/NoteEditor';
 import './App.css';
 
 class App extends Component {
@@ -10,8 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <Toolbar />
-        <NoteList />
-        <Editor />
+        <VisbleNoteList />
+        <NoteEditor />
       </div>
     );
   }

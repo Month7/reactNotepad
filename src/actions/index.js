@@ -1,20 +1,41 @@
-let nextNoteId = 0;
-export const addNote = (note) =>{
+let nextNoteId = 1;
+export const addNote = () => {
     return {
         type: 'ADD_NOTE',
         id:nextNoteId++,
-        title:note.title,
-        content:note.content
     }
 }
 
-export const removeNote = () =>{
-
+export const removeNote = () => {
+    return {
+        type: 'REMOVE_NOTE'
+    }
 }
 
-export const togglNote = (id) =>{
+export const updateNote = (note) => {
+    return {
+        type: 'UPDATE_NOTE',
+        note
+    }
+}
+
+export const toggleNote = (note) => {
     return {
         type: 'TOGGLE_NOTE',
-        id
+        note
+    }
+}
+
+export const switchShow = (filter) => {
+    return {
+        type: 'SWITCH_SHOW',
+        filter
+    }
+}
+
+export const toggleFavorite = () => {
+    return {
+        type: 'TOGGLE_fAVORITE',
+        
     }
 }
