@@ -135,7 +135,6 @@ class Editor extends Component{
 	}
 	render(){
 		if(this.flag == false){
-			console.log("!!")
 			this.textTitle.value = this.props.note.title;
 			this.textContent.value = this.props.note.content;
 			this.id = this.props.note.id;
