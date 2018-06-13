@@ -1,6 +1,6 @@
-###### reactNotepad
+## reactNotepad
 
-## 实现了CUD功能的记事本 使用redux进行状态管理
+###### 实现了CUD功能的记事本 使用redux进行状态管理
 
 ### Quick Start
 
