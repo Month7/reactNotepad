@@ -4,13 +4,15 @@ const notes = (state = {
         {
             id:0,
             title: '测试标题',
-            content: '测试内容'
+            content: '测试内容',
+            favorite: false
         }
     ],
     activeNote: {
         id:0,
         title: '测试标题',
-        content: '测试内容'
+        content: '测试内容',
+        favorite: false
     }
 },action) =>{
     switch(action.type){
